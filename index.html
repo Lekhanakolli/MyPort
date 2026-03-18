@@ -2,64 +2,177 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lekhana Kolli | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <nav id="navbar">
-    <div class="nav-logo">Lekhana Kolli</div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="nav-profile">
+    <img src="lekhi img.jpg" alt="Lekhana Kolli" class="nav-photo"/>
+    <div class="nav-info">
+      <span class="nav-name">Lekhana Kolli</span>
+      <span class="nav-role">✦ Aspiring Software Developer ✦</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+    <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+    <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+    <li><a href="#projects"><i class="fas fa-rocket"></i> Projects</a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> About Me</a></li>
+  </ul>
+</nav>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section animate-slide">
+  <div class="section-heading">
+    <i class="fas fa-briefcase"></i>
+    <h2>Experience</h2>
+  </div>
+  <div class="exp-card">
+    <div class="exp-top">
+      <div>
+        <h3 class="exp-role">Full Stack Java Developer Intern</h3>
+        <p class="exp-company"><i class="fas fa-building"></i> KodNest Technologies · Bengaluru, Karnataka</p>
+      </div>
+      <span class="exp-date">Aug 2025 – Feb 2026</span>
+    </div>
+    <ul class="exp-points">
+      <li>Developed and maintained Java-based application features as part of a full-stack development team.</li>
+      <li>Implemented backend functionality for data CRUD operations using relational databases (SQL, MySQL).</li>
+      <li>Built UI components using HTML and CSS; used Git and GitHub for version control and team collaboration.</li>
     </ul>
-    <button id="darkBtn">🌙 Dark Mode</button>
-  </nav>
+  </div>
+</section>
 
-  <!-- Hero Section -->
-  <header id="hero">
-    <div class="hero-content animate-fade">
-      <h1>Hi, I'm <span class="highlight">Lekhana Kolli</span> 👋</h1>
-      <p>Aspiring Web Developer | Nellore, Andhra Pradesh</p>
-      <a href="#contact" class="btn">Get In Touch</a>
+<!-- EDUCATION -->
+<section id="education" class="section animate-slide">
+  <div class="section-heading">
+    <i class="fas fa-graduation-cap"></i>
+    <h2>Education</h2>
+  </div>
+  <div class="edu-cards">
+    <div class="edu-card">
+      <p class="edu-degree">B.Tech – Artificial Intelligence &nbsp;&nbsp; <span class="edu-year">(2022–2026)</span></p>
+      <p class="edu-college">Audisankara College of Engineering and Technology, Gudur (Andhra Pradesh)</p>
+      <p class="edu-grade">CGPA : 8.66 &nbsp;|&nbsp; 🏅 Full Scholarship Awardee</p>
     </div>
-  </header>
+    <div class="edu-card">
+      <p class="edu-degree">Intermediate MPC &nbsp;&nbsp; <span class="edu-year">(2020–2022)</span></p>
+      <p class="edu-college">Narayana Junior College, Nellore (Andhra Pradesh)</p>
+      <p class="edu-grade">Percentage : 93.8 / 100</p>
+    </div>
+    <div class="edu-card">
+      <p class="edu-degree">SSC &nbsp;&nbsp; <span class="edu-year">(2019–2020)</span></p>
+      <p class="edu-college">Sri Vivekananda E.M High School, BuchiReddyPalem (Andhra Pradesh)</p>
+      <p class="edu-grade">CGPA : 9.3 / 10</p>
+    </div>
+  </div>
+</section>
 
-  <!-- About Section -->
-  <section id="about" class="animate-slide">
+<!-- SKILLS -->
+<section id="skills" class="section animate-slide">
+  <div class="section-heading">
+    <i class="fas fa-layer-group"></i>
+    <h2>Skills</h2>
+  </div>
+  <div class="skills-wrap">
+    <div class="skill-chip">
+      <i class="fab fa-java"></i>
+      <span>Java</span>
+      <div class="skill-sub">OOP · Collections · Exception Handling · DSA</div>
+    </div>
+    <div class="skill-chip">
+      <i class="fab fa-html5"></i>
+      <span>HTML, CSS, JS</span>
+      <div class="skill-sub">HTML5 · CSS3 · JavaScript</div>
+    </div>
+    <div class="skill-chip">
+      <i class="fab fa-github"></i>
+      <span>GitHub, VS Code, Git</span>
+      <div class="skill-sub">Version Control · Collaboration</div>
+    </div>
+    <div class="skill-chip">
+      <i class="fas fa-database"></i>
+      <span>MySQL, Oracle</span>
+      <div class="skill-sub">Relational Databases · SQL</div>
+    </div>
+    <div class="skill-chip">
+      <i class="fas fa-puzzle-piece"></i>
+      <span>Problem Solving</span>
+      <div class="skill-sub">Logical Thinking · Debugging</div>
+    </div>
+    <div class="skill-chip">
+      <i class="fas fa-robot"></i>
+      <span>Claude AI · Antigravity</span>
+      <div class="skill-sub">AI Tools · Productivity</div>
+    </div>
+  </div>
+
+  
+<!-- PROJECTS -->
+<section id="projects" class="section animate-slide">
+  <div class="section-heading">
+    <i class="fas fa-rocket"></i>
+    <h2>Projects</h2>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3 class="project-name">FoodClub</h3>
+      <p class="project-desc">Designed responsive UI using HTML5, CSS3, and Flexbox. Applied semantic HTML for accessibility and organized reusable components for maintainability. Deployed via GitHub Pages.</p>
+      <div class="project-tags">
+        <span><i class="fab fa-html5"></i> HTML5</span>
+        <span><i class="fab fa-css3-alt"></i> CSS3</span>
+        <span><i class="fab fa-github"></i> GitHub Pages</span>
+      </div>
+      <a href="https://lekhanakolli.github.io/FoodClub-Hosting" target="_blank" class="project-btn"><i class="fas fa-arrow-right"></i> Project Link</a>
+    </div>
+    <div class="project-card">
+      <h3 class="project-name">Personal Portfolio</h3>
+      <p class="project-desc">Built a professional portfolio website with smooth animations, skills section, projects showcase, and contact form. Deployed via GitHub Pages with structured commit practices.</p>
+      <div class="project-tags">
+        <span><i class="fab fa-html5"></i> HTML</span>
+        <span><i class="fab fa-css3-alt"></i> CSS</span>
+        <span><i class="fab fa-js"></i> JavaScript</span>
+      </div>
+      <a href="https://lekhanakolli.github.io/MyPort" target="_blank" class="project-btn"><i class="fas fa-arrow-right"></i> Project Link</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT ME -->
+<section id="about" class="section animate-slide">
+  <div class="section-heading">
+    <i class="fas fa-user"></i>
     <h2>About Me</h2>
-    <p>Nenu Nellore nunchi. Web development nerchukuntunnanu. HTML, CSS, JavaScript tho projects build chestunnanu!</p>
-  </section>
-
-  <!-- Skills Section -->
-  <section id="skills" class="animate-slide">
-    <h2>My Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">💻 HTML</div>
-      <div class="skill-card">🎨 CSS</div>
-      <div class="skill-card">⚡ JavaScript</div>
-      <div class="skill-card">🐙 GitHub</div>
+  </div>
+  <div class="about-grid">
+    <p class="about-text">I am a final-year B.Tech student specializing in Artificial Intelligence at Audisankara College of Engineering and Technology, Gudur. I have completed a 6-month Full Stack Java internship at KodNest Technologies, Bengaluru. I am proficient in Java, OOP, DSA, HTML, CSS, and SQL. My goal is to start a career in software development and I am actively seeking an entry-level role to apply my academic knowledge, grow professionally, and contribute effectively to an organization. I am eager to explore various aspects of this field and I am always open to learning new technologies.</p>
+    <div class="about-contacts">
+      <a href="tel:+919492040789"><i class="fas fa-phone"></i> +91 9492040789</a>
+      <a href="mailto:kollilekhanareddy@gmail.com"><i class="fas fa-envelope"></i> kollilekhanareddy@gmail.com</a>
+      <a href="#"><i class="fas fa-map-marker-alt"></i> Nellore, Andhra Pradesh</a>
+      <a href="https://linkedin.com/in/lekhanakolli" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/LekhanaKolli" target="_blank"><i class="fab fa-github"></i> GitHub</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="animate-slide">
-    <h2>Contact Me</h2>
-    <form id="contactForm">
-      <input type="text" id="nameInput" placeholder="Meeru Peru" required />
-      <input type="email" id="emailInput" placeholder="Meeru Email" required />
-      <textarea id="msgInput" placeholder="Meeru message..." rows="4"></textarea>
-      <button type="button" id="sendBtn">Send Message 📨</button>
-    </form>
-    <p id="successMsg" style="display:none; color:green;">✅ Message sent! Thank you!</p>
-  </section>
+<!-- FOOTER -->
+<footer class="footer">
+  <p class="footer-name">© Lekhana Kolli</p>
+  <div class="footer-icons">
+    <a href="mailto:kollilekhanareddy@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/lekhanakolli" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/LekhanaKolli" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+  </div>
+</footer>
 
-  <footer>
-    <p>Made with ❤️ by Lekhana Kolli</p>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
